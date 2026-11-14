@@ -1,0 +1,17 @@
+{
+  "name": "audio-beat-grid-analyzer",
+  "version": "1.0.0",
+  "description": "离线 PCM 节拍网格分析库：能量起音包络、BPM/相位估计、变速分段与缺失节拍容忍",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
